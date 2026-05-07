@@ -141,7 +141,7 @@ plt.show()
 print("Big figure saved to:", big_output_path)
 
 # =========================
-# 6. 输出六张单独小图
+# 6picture
 # =========================
 for var in vars_list:
     single_output_path = out_dir / f"{var}_mgwr_coefficient_tvalue_no_islands.png"
